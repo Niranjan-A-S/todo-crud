@@ -14,7 +14,7 @@ export const AddTodo = memo(({ onAdd }) => {
 
   return (
     <label>
-      Add todo: <input type="text" value={text} onChange={onChange} />{" "}
+      Add todo: <input type="text" value={text} onChange={onChange} required />{" "}
       <button onClick={onClick}>Add</button>
     </label>
   );
